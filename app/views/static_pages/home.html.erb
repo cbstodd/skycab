@@ -1,2 +1,48 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<!-- TODO: Make into a partial -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">SkyCab&trade;</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: auto;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Log In
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><i class="fal fa-sign-in"></i>&nbsp;Sign In</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fal fa-sign-out"></i>&nbsp;Logout</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><i class="fal fa-pen"></i>&nbsp;Sign Up</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fal fa-user"></i>&nbsp;Account</a></li>
+          </ul>
+        </li>        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav> <!-- END Navbar -->
+
+
+<div class="container">
+    <div class="card bg-info m-3 shadow">
+        <div class="card-body p-4">
+            <h1>Welcome to <strong>SkyCab&trade;</strong></h1>
+            <p>SkyCab&trade; is the first of it's kind to provide you with a way to fly into your small local airport by a licensed and insured pilot from your smart phone or computer.</p>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-lg btn-dark rounded-1" aria-label="button"><i class="fal fa-plane"></i> Book a <strong>SkyCab&trade;</strong> Now!</button>        
+            </div>
+        </div>
+    </div> <!-- END Card -->
+</div>
