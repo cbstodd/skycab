@@ -20,4 +20,10 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_privacy_policy_url
     assert_response :success
   end
+
+  test "should get FAQ page" do
+    get static_pages_faq_url
+    assert_response :success
+  end
+
 end

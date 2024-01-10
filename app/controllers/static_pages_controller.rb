@@ -4,7 +4,6 @@ class StaticPagesController < ApplicationController
   end
 
   def home
-
   end
 
   def help
@@ -15,4 +14,8 @@ class StaticPagesController < ApplicationController
 
   def terms_and_conditions
   end
+
+  def faq
+  end
+
 end

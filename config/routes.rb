@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'static_pages/terms_and_conditions'
   get 'static_pages/privacy-policy'
   get 'static_pages/about'
+  get "static_pages/faq"
   # get 'static_pages/privacy_policy'
   # get 'static_pages/terms_and_conditions'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
