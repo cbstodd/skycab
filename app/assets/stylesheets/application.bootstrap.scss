@@ -1,2 +1,31 @@
-@import 'bootstrap/scss/bootstrap';
-@import 'bootstrap-icons/font/bootstrap-icons';
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+// Colors:
+:root {
+  --blue: #0e2e4a;
+  --dark-grey: #666b86;
+  --tan: #fef7dc;
+  --beige: #f5cca1;
+  --red: #df3752;
+}
+
+.blue-bg {
+  background-color: var(--blue) !important;
+}
+
+.dark-grey-bg {
+  background-color: var(--dark-grey) !important;
+}
+
+.tan-bg {
+  background-color: var(--tan) !important;
+}
+
+.beige-bg {
+  background-color: var(--beige) !important;
+}
+
+.red-bg {
+  background-color: var(--red) !important;
+}
